@@ -8,7 +8,7 @@ const navItems = [
   { label: 'About', href: '#about' },
   { label: 'Projects', href: '#projects' },
   { label: 'Skills', href: '#skills' },
-  { label: 'Contact', href: '#contact' },
+  { label: 'Feedback', href: '#feedback' },
 ]
 
 export function SiteHeader() {
@@ -43,7 +43,7 @@ export function SiteHeader() {
           <Button
             size="lg"
             nativeButton={false}
-            render={<a href="#contact">Let&apos;s talk</a>}
+            render={<a href="#feedback">Leave feedback</a>}
           />
         </div>
 
@@ -78,8 +78,8 @@ export function SiteHeader() {
                 size="lg"
                 nativeButton={false}
                 render={
-                  <a href="#contact" onClick={() => setOpen(false)}>
-                    Let&apos;s talk
+                  <a href="#feedback" onClick={() => setOpen(false)}>
+                    Leave feedback
                   </a>
                 }
               />

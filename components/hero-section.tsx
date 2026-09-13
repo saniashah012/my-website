@@ -54,9 +54,9 @@ export function HeroSection() {
               variant="outline"
               nativeButton={false}
               render={
-                <a href="#contact">
+                <a href="#feedback">
                   <Mail className="size-4" />
-                  Contact Me
+                  Leave Feedback
                 </a>
               }
             />
